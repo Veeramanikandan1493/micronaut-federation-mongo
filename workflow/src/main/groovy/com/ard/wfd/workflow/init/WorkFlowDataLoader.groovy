@@ -8,9 +8,11 @@ import io.micronaut.context.env.Environment
 import io.micronaut.context.event.ApplicationEventListener
 import io.micronaut.discovery.event.ServiceStartedEvent
 
+import javax.inject.Singleton
+
 @Slf4j
 @CompileStatic
-//@Singleton
+@Singleton
 @Requires(notEnv = Environment.TEST)
 class WorkFlowDataLoader implements ApplicationEventListener<ServiceStartedEvent> {
 
