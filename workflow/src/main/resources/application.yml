@@ -1,0 +1,15 @@
+---
+micronaut:
+    application:
+        name: workflow
+    server:
+        port: 8083
+
+---
+datasources.default: {}
+---
+mongodb:
+    uri: "mongodb://localhost:27017"
+grails:
+    mongodb:
+        databaseName: 'workflow_designer'

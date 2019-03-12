@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.ard.wfd.account
+---
+testFramework: spock
+sourceLanguage: groovy
