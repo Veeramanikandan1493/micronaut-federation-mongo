@@ -27,7 +27,7 @@ class WorkFlowDataLoader implements ApplicationEventListener<ServiceStartedEvent
 
     @Override
     void onApplicationEvent(ServiceStartedEvent event) {
-        log.info("Account Data Loader")
+        log.info("WorkFlow Data Loader")
 //        if (!workFlowDesignService.count()) {
 //            workFlowDesignService.save(new WorkFlowDesign(designName: 'Design 1', description: 'Description 1'))
 //            workFlowDesignService.save(new WorkFlowDesign(designName: 'Design 2', description: 'Description 2'))
